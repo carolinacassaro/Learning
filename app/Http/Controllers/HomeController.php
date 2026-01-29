@@ -15,4 +15,8 @@ class HomeController extends Controller
             'surname' => $surname
         ]);
     }
+
+    public function about(){
+        return view('about');
+    }
 }
